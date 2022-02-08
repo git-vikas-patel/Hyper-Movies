@@ -99,12 +99,13 @@ a{
 }
 
 .card{
-    max-width: 200px;
+    max-width: 250px;
     padding: 20px;
     box-shadow: inset 0 0 8px 0 #000000;
     cursor: pointer;
     transition: all 400ms;
     border-radius: 10px;
+    margin: 20px 0;
 }
 .card:hover{
     box-shadow:  0 0 8px 0 #000000;
@@ -120,7 +121,10 @@ a{
     letter-spacing: 1px;
     line-height:1.2;
 }
+.card-image{
+    text-align: center;
+}
 .card-image img{
-    max-height: 250px;
+    max-height: 300px;
     border-radius: 10px;
 }
